@@ -8,13 +8,19 @@
   <body>
     <div>
       <div id="buttons">
-        <button id="qvga">320x240</button> <button id="vga">640x480</button>
-        <button id="hd">1280x960</button>
+        <button id="startButton">Start</button>
+        <button id="callButton">Call</button>
+        <button id="hangupButton">Hang Up</button>
       </div>
 
       <p id="dimensions"></p>
 
-      <video id="video" autoplay></video>
+      <div>
+        <video id="localVideo" autoplay></video>
+      </div>
+      <div>
+        <video id="remoteVideo" autoplay></video>
+      </div>
     </div>
 
     <script src="./js/script.js"></script>
